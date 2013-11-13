@@ -20,8 +20,4 @@ $(document).ready(function () {
     $("#foobar").bind("ended", function () {
         $('#playicon').addClass('glyphicon-play').removeClass('glyphicon-pause');
     });
-
-    $('#bird').bind("ended", function () {
-        $('#playicon').addClass('glyphicon-play').removeClass('glyphicon-pause');
-    });
 });
